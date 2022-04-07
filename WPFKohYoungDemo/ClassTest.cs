@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace WPFKohYoungDemo
 {
-    class ClassTest
+    public class ClassTest
     {
-
+        private string name;
+        private int id;
+        public string Name => name == null ? "NA" : name;
+        public int ID
+        {
+            get => id;
+            set => id = value;
+        }
     }
 }
