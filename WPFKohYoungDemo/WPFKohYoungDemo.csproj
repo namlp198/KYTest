@@ -78,6 +78,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ClassTest.cs" />
     <Compile Include="UcLogin.xaml.cs">
       <DependentUpon>UcLogin.xaml</DependentUpon>
     </Compile>
